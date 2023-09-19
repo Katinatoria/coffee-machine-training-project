@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WpfApp_LR5B_Kuz/1.0.0": {
+        "runtime": {
+          "WpfApp_LR5B_Kuz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp_LR5B_Kuz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WpfApp_LR5_Kuz/1.0.0": {
+        "runtime": {
+          "WpfApp_LR5_Kuz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp_LR5_Kuz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

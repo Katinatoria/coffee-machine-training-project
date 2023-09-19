@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp_LR5_Kuz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_LR5_Kuz"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Margin="55,10,-55,-10">
+        <Button x:Name="Button1" Content="Оплатить" HorizontalAlignment="Left" Margin="20,45,0,0" VerticalAlignment="Top" Width="120" Visibility="Visible" BorderBrush="Black" Background="White" Height="21" Click="Button1_Click"/>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Margin="20,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="LabelSum" Content="Внесённая сумма:" HorizontalAlignment="Left" Margin="154,20,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelChange" Content="Сдача:" HorizontalAlignment="Left" Margin="154,43,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelPrice" Content="Цена напитка:" HorizontalAlignment="Left" Margin="292,20,0,0" VerticalAlignment="Top"/>
+        <StackPanel x:Name="stackPanel" Margin="10,95,669,254">
+            <RadioButton x:Name="Americano" Content="Американо" VerticalAlignment="Top" Checked="Americano_Checked" Click="Americano_Click" IsChecked="True"/>
+            <RadioButton x:Name="cappuccino" Content="Капучино"  VerticalAlignment="Top" Checked="cappuccino_Checked" Click="cappuccino_Click"/>
+            <RadioButton x:Name="espresso" Content="Эспрессо " Checked="espresso_Checked_1" Click="espresso_Click"/>
+            <RadioButton x:Name="cocoa" Content="Какао" Checked="cocoa_Checked" Click="cocoa_Click" />
+        </StackPanel>
+        <Image x:Name="ImageMilk" HorizontalAlignment="Left" Height="207" Margin="-25,211,0,0" VerticalAlignment="Top" Width="242" Source="/fenx7m5o1s7vdljdvjjt70617ak9cavf.jpeg" Visibility="Hidden"/>
+        <Image x:Name="ImageSugar" HorizontalAlignment="Left" Height="133" Margin="123,314,0,0" VerticalAlignment="Top" Width="103" Source="/093f948d1087dedada54ae9f7e199cdd.jpg" Visibility="Hidden"/>
+        <Image x:Name="ImageAmericano" HorizontalAlignment="Left" Height="404" Margin="328,-6,0,0" VerticalAlignment="Top" Width="505" Source="/8_kofe_amerikano.png" Visibility="Hidden" />
+        <Image x:Name="ImageCocoa" HorizontalAlignment="Left" Height="309" Margin="376,49,0,0" VerticalAlignment="Top" Width="458" Source="/6cfdf028159883.5637090d1843f.jpg" Visibility="Hidden"/>
+        <StackPanel x:Name="stackPanel2" Margin="95,95,618,263">
+            <CheckBox x:Name="Milk" Content="Молоко" Width="74" Checked="Milk_Checked" Click="Milk_Click"/>
+            <CheckBox x:Name="Sugar" Content="Сахар" Width="74" Click="Sugar_Click"/>
+        </StackPanel>
+        <Image x:Name="ImageCappuccino" HorizontalAlignment="Left" Height="289" Margin="357,0,0,0" VerticalAlignment="Center" Width="395" Source="/cappuccino.png" Visibility="Hidden"/>
+        <Image x:Name="ImageEspresso" HorizontalAlignment="Left" Height="325" Margin="361,76,0,0" VerticalAlignment="Top" Width="371" Source="/espresso.png" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

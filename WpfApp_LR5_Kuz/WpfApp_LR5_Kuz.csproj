@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="093f948d1087dedada54ae9f7e199cdd.jpg" />
+    <None Remove="6cfdf028159883.5637090d1843f.jpg" />
+    <None Remove="8_kofe_amerikano.png" />
+    <None Remove="cappuccino.png" />
+    <None Remove="espresso.png" />
+    <None Remove="fenx7m5o1s7vdljdvjjt70617ak9cavf.jpeg" />
+    <None Remove="kisspng-sugar-cubes-sugar-substitute-tea-sucralose-eker-bayram-5b162c5f38e2b2.835893361528179807233.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="093f948d1087dedada54ae9f7e199cdd.jpg" />
+    <Resource Include="6cfdf028159883.5637090d1843f.jpg" />
+    <Resource Include="8_kofe_amerikano.png" />
+    <Resource Include="cappuccino.png" />
+    <Resource Include="espresso.png" />
+    <Resource Include="fenx7m5o1s7vdljdvjjt70617ak9cavf.jpeg" />
+    <Resource Include="kisspng-sugar-cubes-sugar-substitute-tea-sucralose-eker-bayram-5b162c5f38e2b2.835893361528179807233.jpg" />
+  </ItemGroup>
+
+</Project>
